@@ -61,6 +61,7 @@ button {
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
+    letter-spacing: 0.001em;
     color: #000;
     display: flex;
     align-items: center;
@@ -86,14 +87,13 @@ button {
 }
 .hello-title {
     color: #000;
-    text-align: center;
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 1;
     letter-spacing: 0.01em;
-    margin-right: 208px;
+    text-align: left;
     padding-top: 20px;
     padding-bottom: 15px;
 }
