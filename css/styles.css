@@ -45,10 +45,15 @@ ul, ol{
 .acent-logo {
     color: var(--accent-brand-color);
 }
+
 .bell-btn {
     margin-left: auto;
     padding: 0;
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+.navigation-list{
+    display: none;
 }
