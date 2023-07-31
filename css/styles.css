@@ -38,6 +38,7 @@ button {
     padding: 0 20px;
     margin: 0 auto;
 }
+/**-------------------header------------------- */
 .header-nav {
     display: flex;
     align-items: center;
@@ -79,4 +80,64 @@ button {
 
 .navigation-list{
     display: none;
+}
+/**----------------hero-section----------- */
+.hero-section {
+}
+.hello-title {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    margin-right: 208px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.background-wrap {
+    padding: 26px 7px 12px 21px;
+    background-image: url(../images/hero-bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-device-pixel-ratio:2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .background-wrap{
+            background-image: url(../images/hero-bg-img@2x.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+    }
+.accent-text {
+    color: #FFF;
+font-family: Merienda;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: 1.5;
+letter-spacing: 0.04em;
+margin-right: 76px;
+margin-bottom: 74px;
+}
+.accent-word{
+    color: var(--accent-brand-color);
+}
+.consultation-btn {
+    background-color: var(--accent-brand-color);
+    color: #000;
+    padding: 4px 23px;
+    border: none;
+    border-radius: 4px;
+    font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.4;
+letter-spacing: 0.02em;
+margin-left: 153px;
 }
