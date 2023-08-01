@@ -15,7 +15,7 @@
 <body>
     <header>
         <div class="container">
-            <nav class="header-nav">
+            <nav class="header-nav desktop-bg">
                 <button class="mobile-menu-btn">
                     <svg width="22" height="19">
                         <use href="./images/icons.svg#icon-humburger"></use>
@@ -23,6 +23,7 @@
                 </button>
                 <a  class="logo-link" href="./index.html">
                     <img 
+                    srcset="./images/logo-main.jpg 1x, ./images/logo-main@2x.jpg 2x"
                     src="./images/logo-main.jpg" 
                     width="25" height="25" 
                     alt="Logo image">
@@ -71,12 +72,18 @@
     </header>
     <main>
         <div class="container">
-            <section class="hero-section">
-                <h1 class="hello-title">Hello there,</h1>
+            <section class="mobile-hero-section">
+                <p class="hello-title">Hello there,</p>
                 <div class="background-wrap">
-                    <h2 class="accent-text">Transform Your space,<span class="accent-word">Enchant</span> Your Life!</h2>
-                    <button class="consultation-btn" type="submit">Book Consultation</button>
+                    <h1 class="mobile-main-title">Transform Your space,<span class="accent-word">Enchant</span> Your Life!</h1>
+                    <button class="mobile-hero-btn" type="submit">Book Consultation</button>
                 </div>
+            </section>
+
+            <section class="desktop-hero-section desktop-bg">
+                <h2 class="desktop-main-title">Refining the tone of your space</h2>
+                <p class="desktop-hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <button class="desctop-hero-btn">Our Project</button>
             </section>
         </div>
     </main>

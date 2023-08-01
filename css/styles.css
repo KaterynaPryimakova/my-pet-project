@@ -38,7 +38,7 @@ button {
     padding: 0 20px;
     margin: 0 auto;
 }
-/**-------------------header------------------- */
+/**-------------------Header------------------- */
 .header-nav {
     display: flex;
     align-items: center;
@@ -82,13 +82,12 @@ button {
 .navigation-list{
     display: none;
 }
-/**----------------hero-section----------- */
-.hero-section {
-}
+/**----------------Hero-section----------- */
+
 .hello-title {
     color: #000;
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 1;
@@ -99,21 +98,37 @@ button {
 }
 .background-wrap {
     padding: 26px 7px 12px 21px;
-    background-image: url(../images/hero-bg-img.jpg);
+    background-image:
+            linear-gradient(
+            to bottom
+            rgba(0, 0, 0, 0.20)
+            rgba(0, 0, 0, 0.20)
+            ), url(../images/hero-bg-img.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 @media (min-device-pixel-ratio:2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .background-wrap{
-            background-image: url(../images/hero-bg-img@2x.jpg);
+            background-color: #5e5f50;
+            background-image:
+            linear-gradient(
+                to bottom
+                rgba(0, 0, 0, 0.20)
+                rgba(0, 0, 0, 0.20)
+                ), url(../images/hero-bg-img@2x.jpg);
             background-repeat: no-repeat;
+            background-position: center;
             background-size: cover;
 
         }
     }
-.accent-text {
+.desktop-hero-section{
+    display: none;
+}
+.mobile-main-title {
     color: #FFF;
 font-family: Merienda;
 font-size: 16px;
@@ -127,7 +142,7 @@ margin-bottom: 74px;
 .accent-word{
     color: var(--accent-brand-color);
 }
-.consultation-btn {
+.mobile-hero-btn {
     background-color: var(--accent-brand-color);
     color: #000;
     padding: 4px 23px;
