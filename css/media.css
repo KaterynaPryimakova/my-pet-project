@@ -5,6 +5,7 @@
         margin: 0 auto;
     }
     .header-nav{
+        background-color: #86866c;
         height: 198px;
         padding: 0 40px;
     }
@@ -66,8 +67,8 @@
     .desktop-hero-section {
         display: block;
         background-color: #5e5f50;
-        padding-top: 52px;
-        padding-bottom: 216px;
+        padding-top: 100px;
+        padding-bottom: 236px;
     }
     .desktop-main-title {
         color: #FFF;
@@ -108,10 +109,9 @@
         display: block;
         cursor: pointer;
     }
-    .header-nav, .desktop-hero-section{
+    .desktop-hero-section{
 
-        background-image: 
-        linear-gradient(
+        background-image: linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0.20),
         rgba(0, 0, 0, 0.20)
@@ -119,23 +119,20 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 880px;
     }
     @media (min-device-pixel-ratio:2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .header-nav, .desktop-hero-section{
+        .desktop-hero-section{
             background-color: #5e5f50;
-            background-image:
-            linear-gradient(
-                to bottom
-                rgba(0, 0, 0, 0.20)
+            background-image: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 0.20),
                 rgba(0, 0, 0, 0.20)
                 ), url(../images/desktop-bg@2x.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
-            height: 880px;
         }
     }
 }

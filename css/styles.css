@@ -98,10 +98,11 @@ button {
 }
 .background-wrap {
     padding: 26px 7px 12px 21px;
+    background-color: #5e5f50;
     background-image:
             linear-gradient(
-            to bottom
-            rgba(0, 0, 0, 0.20)
+            to bottom,
+            rgba(0, 0, 0, 0.20),
             rgba(0, 0, 0, 0.20)
             ), url(../images/hero-bg-img.jpg);
     background-repeat: no-repeat;
@@ -113,10 +114,9 @@ button {
     (min-resolution: 2dppx) {
         .background-wrap{
             background-color: #5e5f50;
-            background-image:
-            linear-gradient(
-                to bottom
-                rgba(0, 0, 0, 0.20)
+            background-image: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 0.20),
                 rgba(0, 0, 0, 0.20)
                 ), url(../images/hero-bg-img@2x.jpg);
             background-repeat: no-repeat;
@@ -156,3 +156,44 @@ line-height: 1.4;
 letter-spacing: 0.02em;
 margin-left: 153px;
 }
+/**------------------------Offer-section-------------- */
+.offer-section {
+    padding-top: 24px;
+}
+.offer-title {
+    color: #000;
+    text-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    margin-bottom: 8px;
+}
+.offer-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 13px;
+}
+.offer-item {
+}
+.offer-link {
+    max-width: 143px;
+    max-height: 167px;
+    
+}
+.offer-link img{
+    margin-bottom: 9px;
+}
+.offer-text{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    margin-bottom: 23px;
+}
+
