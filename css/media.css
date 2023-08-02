@@ -163,6 +163,23 @@
         margin-bottom: 35px;
     }
 
+    /**--------------------Benefits-section------------ */
+    
+    .benefits-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .benefits-title {
+        color: #000;
+        text-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+        font-family: Roboto;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1;
+        text-decoration: underline;
+        margin-bottom: 27px;
+    }
+
 
 
 }
