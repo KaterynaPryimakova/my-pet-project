@@ -175,13 +175,10 @@ margin-left: 153px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 13px;
+    justify-content: center;
 }
 .offer-item {
-}
-.offer-link {
-    max-width: 143px;
-    max-height: 167px;
-    
+    width: calc((100% - 13px) / 2);
 }
 .offer-link img{
     margin-bottom: 9px;

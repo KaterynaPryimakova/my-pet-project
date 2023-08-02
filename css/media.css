@@ -135,4 +135,34 @@
             background-size: cover;
         }
     }
+    /**---------------Offer section------------- */
+
+    .offer-section {
+        padding-top: 73px;
+    }
+    .offer-title {
+        max-width: 500px;
+        padding: 15px 100px;
+        background-color: var(--accent-brand-color);
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 73px;
+        font-size: 45px;
+        line-height: 1.6;
+        text-align: center;
+        text-decoration: none;
+    }
+    .offer-item {
+        width: calc((100% - 30px) / 3);
+    }
+    .offer-link img{
+        margin-bottom: 18px;
+    }
+    .offer-text{
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+
+
 }
