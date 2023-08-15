@@ -80,9 +80,32 @@ button {
     border: none;
     cursor: pointer;
 }
-
 .navigation-list{
     display: none;
+}
+.go-top {
+    position: fixed; 
+    right: 50px; 
+    bottom:50px; 
+    cursor: pointer; 
+    display: none;
+    color: #061835;
+    background-color:  #7A7A7A;
+    border: none;
+    border-radius: 20%; 
+}
+svg{
+    fill: currentColor;
+    width: 25px;
+    height: 25px;
+}
+.go-top:hover{
+    
+    background-color: #D9D9D9;
+    color: #0A224A;
+}
+.go-top--show {
+    display: block;
 }
 /**----------------Hero-section----------- */
 
